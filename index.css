@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url(source-sans-pro.regular.ttf);
+}
+
+.caption span {
+    padding-left: 10px;
+}
+
+.caption span,
+.name {
+    font-weight: bold;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 10px 15px 10px 10px;
+}
+
+/* IMAGES */
+
+
+.user-icon {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    margin: 0 0 10px 10px;
+}
+
+.post-img {
+    width: 100%;
+}
+
+/* BIO-DATA */
+
+.bio-data {
+    padding-top: 4px;
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.location {
+    padding-top: 5px;
+}
+
+/* POST */
+
+.post-section {
+    margin-top: 80px;
+}
+
+.posts {
+    display: flex;
+}
+
+.posts p {
+    margin: 0px 0px 0px -5px;
+    padding-left: 10px;
+}
+
+.likes {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* BUTTON ICONS */
+
+.icon-section {
+    margin: 10px;
+}
+
+.icon-section button{
+    border: none;
+    background-color: #ffffff;
+    padding: 0px 2px;
+}
+
+.icon-section img {
+    width: 30px;
+}
+
+.icon-section button:hover,
+.icon:focus{
+    opacity: 50%;
+}
