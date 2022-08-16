@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 40%;
 }
 
 /* TYPOGRAPHY */
@@ -10,9 +11,10 @@ html, body {
   src: url(source-sans-pro.regular.ttf);
 }
 
-.caption span {
+.caption {
     padding-left: 10px;
 }
+
 
 .caption span,
 .name {
